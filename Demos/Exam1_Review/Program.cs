@@ -2,9 +2,10 @@
 {
 
     // Write the code to declare an enum of type Platform
-    // with the following 3 states: stationary, floating and moving.
+    // with the following 3 states: falling, stationary, floating and moving.
     enum Platform
     {
+        Falling,
         Stationary, 
         Floating,
         Moving
